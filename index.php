@@ -10,7 +10,7 @@
     require("model/class.smtp.php");
     require("model/constants.php");
     require('model/connectprojectgraduation.php');
-	//Comment added by Volker Gaul
+
 	
 
  $contactFooter = getContactFooter();
