@@ -1,0 +1,143 @@
+body {background:#F1F1F1}
+
+#main  {
+		width: 1000px;
+		clear:both;
+		margin: 0 auto;
+		border:solid #000000;
+		background:#FFF;
+	   }
+
+h1{color:#990066}
+h4{text-align:center; padding-right:90px;}
+h2, h5{text-align:center;}
+
+p{text-align:center;}
+
+.formStyle {
+	    max-width:800px;
+		min-width:300px;
+	    margin-left:auto;
+	    margin-right:auto;
+	   }
+	   
+.formStyle  img {
+		 vertical-align:top;	
+		 float:left;
+	    }
+	   
+.volunteer {
+		padding-top:25px;
+		width:700px;
+		margin-left:auto;
+		margin-right:auto;
+	   }
+
+.volunteer img {
+		float:left;
+	   }
+	
+.volunteer input {
+		text-align:left;
+		float:left;
+		margin-bottom:15px;
+		border:1px solid #000;
+	   }	
+	
+.formStyle input:focus {
+		box-shadow: 0px 0px 5px 1px #000000;
+	   }
+	   
+.volunteer label {
+		clear:both;
+		float:left;
+		text-align:right;
+		padding-right:5px;
+		width:35%;
+		padding-bottom:15px;
+	   }
+
+.left {
+	    float:left;
+	    vertical-align:top;
+	    width: 350px;
+	   }
+	  
+.right {
+		float:left;
+	    vertical-align:top;
+	    width: 350px;
+	   }
+		
+.committees {
+		clear:both;
+		text-align:center;
+	    width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:20px;
+	   }
+	   
+.committees label {
+		width:130px;
+		padding-right:35px;
+		text-align:center;
+	   }
+	   
+.committees input {
+		margin-left:35px;
+	   }
+	   
+.nightOfJobs {
+	    width:720px;
+		margin-left:auto;
+	    margin-right:auto;
+	   }
+	   
+	   
+.nightOfJobs label {
+		
+		padding-right:10px;
+		display:inline-block;
+		float:left;
+		width:135px;
+		text-align:left;
+		padding-left:15px;
+	   }
+	   
+.nightOfJobs input {
+		display:inline-block;
+		float:left;
+	   }
+	   
+.nightChecks label {
+		width:125px;
+	   }
+	   
+.comments {
+		text-align:center;
+	   }
+
+.noscript{
+		text-align: center;
+		background-color: #B22222;
+		color: #FFFFFF;
+		width: 1000px;
+		font-size: large;
+		padding-bottom: 5px;
+	   }
+		
+.exclamation{
+		font-size: x-large;
+		font-weight: bold;
+	   }
+		
+textarea {
+		border: 1px solid #888; 
+		resize: none;
+		margin-bottom:20px;
+	   }
+	   
+button {
+		border:1px solid #000;
+       }

@@ -1,0 +1,67 @@
+/* \9 targets IE8 and below for special formatting
+	refer to http://stackoverflow.com/questions/814219/how-does-one-target-ie7-and-ie8-with-valid-css
+	for more information on targeting older browsers with CSS.
+	
+	*All browsers ignore attributes with /*IE8 and below tag EXCEPT IE8.
+*/
+
+   
+
+body   {
+		background:#F1F1F1;
+		text-align:center\9; /* IE8 and below */
+	   }
+
+#main  {
+		width: 1000px;
+		clear:both;
+		margin: 0 auto;
+		border:solid #000000;
+		background:#FFF;
+	   }
+
+h1     {
+		color:#990066
+	   }
+
+h4     {	
+		text-align:center;
+	   }
+
+h2, h5 {
+		text-align:center;
+	   }
+
+.resultStyle {
+		width:400px;
+		margin: 0 auto;
+		text-align:center;
+	   }
+	   
+.resultStyle label {
+		width:175px;
+		text-align:right;
+		float:left;
+		padding-right:10px;
+	   }
+
+.volunteer {
+		text-align:left!important;
+		width:225;
+}
+
+.time {
+		width:55px!important;
+		width:65px\9!important;
+		text-align:right!important;
+}
+	   
+.to	{
+		width:10px!important;
+		text-align:center!important;
+		padding-right:5!important;
+}
+	   
+button {
+		border:1px solid #000;
+       }

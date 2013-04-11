@@ -1,0 +1,20 @@
+#header {text-align:center;}
+
+#footer {text-align:center;}
+
+.help {
+		padding-top:25px;
+		clear:both;
+	    width:700px;
+		margin-left:auto;
+	    margin-right:auto;
+	   } 
+	   
+.email label {
+	text-align:right;
+	float: left;
+	vertical-align:top;
+	width: 80px;  
+	padding-right: 10px;
+	font-weight:normal;
+	}  
